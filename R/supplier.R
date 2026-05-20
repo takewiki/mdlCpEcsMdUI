@@ -43,8 +43,8 @@ supplierUI_left <- function() {
 
   res <- tagList(
     tsui::mdl_ListChoose1(id ="supplierERP",label =  "ERP账套名",
-                          choiceNames = list("赛普集团新账套"),
-                          choiceValues =list("赛普集团新账套"),selected = list("赛普集团新账套")),
+                          choiceNames = list("DFRobot新账套"),
+                          choiceValues =list("DFRobot新账套"),selected = list("DFRobot新账套")),
     tsui::mdl_text(id = 'txt_supplierSourceSync_manually',label = '请输入供应商代码'),
 
     shinyWidgets::actionBttn(inputId = 'btn_supplierSourceSync_log',label = '日志查询'),
@@ -82,11 +82,11 @@ supplierUI_right <- function() {
 
 
     tsui::mdl_ListChoose1(id ="supplierERP2",label =  "ERP账套名",
-                          choiceNames = list('赛普集团新账套'),
-                          choiceValues =list("赛普集团新账套"),selected = list("赛普集团新账套")),
+                          choiceNames = list('DFRobot新账套'),
+                          choiceValues =list("DFRobot新账套"),selected = list("DFRobot新账套")),
     # selectInput(inputId = "supplierERP2",
     #             label = "ERP账套名",
-    #             choices = c("赛普集团新账套", "测试账套")),
+    #             choices = c("DFRobot新账套", "测试账套")),
 
     tsui::mdl_text(id = 'txt_supplierERP_manually',label = '请输入供应商编码'),
     shinyWidgets::actionBttn(inputId = 'btn_supplierERP_manually',label = '按单查询'),

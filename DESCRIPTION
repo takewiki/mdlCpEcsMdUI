@@ -1,7 +1,7 @@
 Package: mdlCpEcsMdUI
 Type: Package
 Title: ui for ecs md module
-Version: 1.2.2
+Version: 1.2.3
 Author: hulilei
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: More about what it does (maybe more than one line)
